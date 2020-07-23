@@ -1,13 +1,12 @@
-# %% [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+# %% [290. Word Pattern](https://leetcode.com/problems/word-pattern/)
 
 
 class Solution:
-    def firstBadVersion(self, n):
-        lo, up = 0, n
-        while up - lo > 1:
-            mid = (lo + up) // 2
-            if isBadVersion(mid):
-                up = mid
-            else:
-                lo = mid
-        return up
+    def wordPattern(self, s: str, t: str) -> bool:
+        return list(map(s.find, s)) == list(map((t := t.split()).index, t))
+
+
+# %%
+Solution().wordPattern("abba", "dog cat cat dog")
+
+# %%
