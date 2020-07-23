@@ -40,7 +40,7 @@ def show_treenode(tn):
         print(show_treenode(to_treenode(list(range(10, 25)))))
     """
     v0 = v1 = v2 = v3 = v4 = v5 = v6 = v7 = v8 = v9 = va = vb = vc = vd = ve = ""
-    e0 = e1 = e2 = e3 = e4 = e5 = e6 = e7 = e8 = e9 = ea = eb = ec = ed = ee = " "
+    e1 = e2 = e3 = e4 = e5 = e6 = e7 = e8 = e9 = ea = eb = ec = ed = ee = " "
     if tn:
         v0 = tn.val
         if tn.left:
