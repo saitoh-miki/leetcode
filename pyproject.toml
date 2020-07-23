@@ -1,0 +1,30 @@
+[tool.poetry]
+authors = ["SaitoTsutomu <tsutomu7@hotmail.co.jp>"]
+classifiers = [
+  "Development Status :: 1 - Planning",
+  "License :: OSI Approved :: Python Software Foundation License",
+  "Programming Language :: Python",
+  "Topic :: Software Development",
+  "Topic :: Scientific/Engineering",
+]
+description = "LeetCode code"
+homepage = "https://github.com/SaitoTsutomu/leetcode"
+license = "PSFL"
+name = "leetcode"
+readme = "README.md"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+scipy = "^1.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.3"
+black = "^19.10b0"
+isort = "^5.1.4"
+mypy = "^0.782"
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
