@@ -117,6 +117,7 @@
 - [0258 Add Digits](codes_/0258_Add_Digits.py) - [leetcode.com](https://leetcode.com/problems/add-digits/)
 - [0263 Ugly Number](codes_/0263_Ugly_Number.py) - [leetcode.com](https://leetcode.com/problems/ugly-number/)
 - [0268 Missing Number](codes_/0268_Missing_Number.py) - [leetcode.com](https://leetcode.com/problems/missing-number/)
+- [0278 First Bad Version](codes_/0278_First_Bad_Version.py) - [leetcode.com](https://leetcode.com/problems/first-bad-version/)
 - [0279 Perfect Squares](codes_/0279_Perfect_Squares.py) - [leetcode.com](https://leetcode.com/problems/perfect-squares/)
 - [0283 Move Zeroes](codes_/0283_Move_Zeroes.py) - [leetcode.com](https://leetcode.com/problems/move-zeroes/)
 - [0287 Find the Duplicate Number](codes_/0287_Find_the_Duplicate_Number.py) - [leetcode.com](https://leetcode.com/problems/find-the-duplicate-number/)
