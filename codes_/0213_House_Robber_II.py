@@ -8,10 +8,3 @@ class Solution:
             return max(robed, norob)
 
         return max(sum(nums[:1]), calc(nums[:-1]), calc(nums[1:]))
-
-
-# %%
-Solution().rob([1])
-
-
-# %%
