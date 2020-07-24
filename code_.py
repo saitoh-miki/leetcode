@@ -1,11 +1,17 @@
-# %% [779. K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/)
-class Solution:
-    def kthGrammar(self, _: int, K: int) -> int:
-        return bin(K - 1).count("1") % 2
+# %% [322. Coin Change](https://leetcode.com/problems/coin-change/)
+class Solution(object):
+    def coinChange(self, coins, amount):
+        @functools.lru_cache(None)
+        def calc(a):
+            if not a:
+                return 0
+            return min([calc(a - c) for c in coins if a >= c], default=math.inf) + 1
+
+        return -1 if math.isinf(n := calc(amount)) else n
 
 
 # %%
-Solution().kthGrammar(1, 1)
+Solution().coinChange([1, 2, 5], 11)
 
 
 # %%
