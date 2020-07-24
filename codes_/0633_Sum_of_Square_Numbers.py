@@ -7,10 +7,3 @@ class Solution:
                 return True
             st.add(c - num)
         return False
-
-
-# %%
-Solution().judgeSquareSum(1)
-
-
-# %%
