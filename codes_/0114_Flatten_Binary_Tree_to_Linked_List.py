@@ -1,5 +1,4 @@
 # %% [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)
-
 class Solution:
     def flatten(self, root: TreeNode) -> None:
         """
@@ -10,6 +9,7 @@ class Solution:
             root.left = None
         for i in lst[1:]:
             p.right = p = TreeNode(i)
+
 
 def to_list(tn, top=False):
     if tn:

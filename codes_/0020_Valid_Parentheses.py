@@ -1,8 +1,7 @@
 # %% [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-
 class Solution:
     def isValid(self, s: str) -> bool:
-        lst, dc = [], dict(zip('({[', ')}]'))
+        lst, dc = [], dict(zip("({[", ")}]"))
         for c in s:
             if c in "({[":
                 lst.append(dc[c])

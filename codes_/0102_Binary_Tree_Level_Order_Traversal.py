@@ -1,5 +1,4 @@
 # %% [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-
 class Solution:
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         ans, nxt = [], [root]

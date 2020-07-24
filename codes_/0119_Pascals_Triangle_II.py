@@ -1,5 +1,4 @@
 # %% [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
-[](https://leetcode.com/problems/pascals-triangle-ii/)
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
         c = [1]

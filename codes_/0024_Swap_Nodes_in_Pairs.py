@@ -1,5 +1,4 @@
 # %% [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)
-
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
         top = p = ListNode(0, head)

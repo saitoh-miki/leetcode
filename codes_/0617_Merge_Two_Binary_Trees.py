@@ -1,5 +1,4 @@
 # %% [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)
-
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:
         if not t1 and not t2:

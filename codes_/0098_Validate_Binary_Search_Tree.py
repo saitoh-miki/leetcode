@@ -1,5 +1,4 @@
 # %% [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-
 class Solution:
     def isValidBST(self, root: TreeNode, lo=-math.inf, up=math.inf) -> bool:
         if root:

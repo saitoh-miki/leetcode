@@ -1,8 +1,8 @@
 # %% [543. Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)
-
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         return dfs(root, 0)[1]
+
 
 def dfs(tn, mx):
     if not tn:

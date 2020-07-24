@@ -1,10 +1,10 @@
 # %% [39. Combination Sum](https://leetcode.com/problems/combination-sum/)
-
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         ans = []
         calc(candidates, target, [], ans)
         return ans
+
 
 def calc(candidates, target, cur, ans):
     if target <= 0 or not candidates:

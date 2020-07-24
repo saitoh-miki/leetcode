@@ -1,5 +1,4 @@
 # %% [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
-
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
         ans, nxt = [], [root]

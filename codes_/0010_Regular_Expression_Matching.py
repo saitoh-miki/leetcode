@@ -1,5 +1,4 @@
 # %% [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
-
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
-        return re.match(p + '$', s)
+        return re.match(p + "$", s)

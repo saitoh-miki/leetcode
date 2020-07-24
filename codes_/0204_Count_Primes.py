@@ -1,5 +1,4 @@
 # %% [204. Count Primes](https://leetcode.com/problems/count-primes/)
-
 class Solution:
     def countPrimes(self, max_number: int) -> int:
         pr = list(range(3, max_number, 2))

@@ -1,5 +1,4 @@
 # %% [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         c, mx = 0, nums[0]

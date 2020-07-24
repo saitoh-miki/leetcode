@@ -1,5 +1,4 @@
 # %% [23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-
 class Solution:
     def mergeKLists(self, lists: List[ListNode]) -> ListNode:
         res = p = ListNode()

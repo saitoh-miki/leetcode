@@ -1,5 +1,4 @@
 # %% [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         i, j = 0, len(s := s.lower()) - 1

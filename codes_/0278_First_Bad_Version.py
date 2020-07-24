@@ -1,6 +1,4 @@
 # %% [278. First Bad Version](https://leetcode.com/problems/first-bad-version/)
-
-
 class Solution:
     def firstBadVersion(self, n):
         lo, up = 0, n

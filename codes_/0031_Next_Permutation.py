@@ -1,5 +1,4 @@
 # %% [31. Next Permutation](https://leetcode.com/problems/next-permutation/)
-
 class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
@@ -12,4 +11,4 @@ class Solution:
             while j >= 0 and nums[j] <= nums[i]:
                 j -= 1
             nums[i], nums[j] = nums[j], nums[i]
-        nums[i + 1:] = reversed(nums[i + 1:])
+        nums[i + 1 :] = reversed(nums[i + 1 :])

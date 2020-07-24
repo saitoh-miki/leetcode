@@ -1,5 +1,4 @@
 # %% [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
-
 class Solution:
     def detectCycle(self, head: ListNode) -> ListNode:
         st = set()

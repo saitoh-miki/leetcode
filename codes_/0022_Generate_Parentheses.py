@@ -1,8 +1,8 @@
 # %% [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
-
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        return list(search('(' * n, '', ''))
+        return list(search("(" * n, "", ""))
+
 
 def search(left, right, cur):
     if left:

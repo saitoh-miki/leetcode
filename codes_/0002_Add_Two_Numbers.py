@@ -1,5 +1,4 @@
 # %% [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
-
 class Solution:
     def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
         in1, in2, of, lst = to_iter(l1), to_iter(l2), 0, []
@@ -11,11 +10,13 @@ class Solution:
             lst.append(of)
         return to_listnode(lst)
 
+
 def to_listnode(it):
     ln = p = ListNode()
     for i in it:
         p.next = p = ListNode(i)
     return ln.next
+
 
 def to_iter(ln, isval=True):
     while ln:

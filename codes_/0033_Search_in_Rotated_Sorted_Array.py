@@ -1,5 +1,4 @@
 # %% [33. Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-
 class Solution:
     def search(self, nums: List[int], t: int) -> int:
         lo, hi, n0 = 0, len(nums), nums and nums[0]

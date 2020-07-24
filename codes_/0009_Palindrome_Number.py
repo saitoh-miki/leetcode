@@ -1,8 +1,8 @@
 # %% [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)
-
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         return is_palindrome(str(x))
+
 
 def is_palindrome(s):
     n = len(s)

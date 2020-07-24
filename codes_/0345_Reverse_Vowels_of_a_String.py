@@ -3,10 +3,3 @@ class Solution:
     def reverseVowels(self, s: str) -> str:
         i = reversed([c for c in s if c in "aeiouAEIOU"])
         return "".join(next(i) if c in "aeiouAEIOU" else c for c in s)
-
-
-# %%
-Solution().reverseVowels("hello")
-
-
-# %%
