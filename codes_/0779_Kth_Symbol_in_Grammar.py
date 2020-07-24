@@ -2,10 +2,3 @@
 class Solution:
     def kthGrammar(self, _: int, K: int) -> int:
         return bin(K - 1).count("1") % 2
-
-
-# %%
-Solution().kthGrammar(1, 1)
-
-
-# %%
