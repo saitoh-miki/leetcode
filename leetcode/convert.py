@@ -43,7 +43,7 @@ def convert(file: str = "code.py", dir_="codes"):
                 line = gp.readline()
             if m := re.match(r"#\s*%*\s*\[(\d+)\.\s*([^]]+)\]\(([^)]+)\)\s*", line):
                 s = f"{int(m.group(1)):04} {m.group(2)}"
-                fp.write(f"- [{s}]({fnam}) - [leetcode.com]({m.group(3)})\n")
+                fp.write(f"- [{s}]({fnam}) - ([leetcode.com]({m.group(3)}))\n")
 
 
 def add_file(num: int, title: str, lines: List[str], dir_: str):
