@@ -2,10 +2,3 @@
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:
         return round(math.sqrt(num), 14) % 1 == 0
-
-
-# %%
-Solution().isPerfectSquare(1723122 ** 2 + 1)
-
-
-# %%

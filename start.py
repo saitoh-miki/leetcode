@@ -1,1 +1,1 @@
-from leetcode import *
+from leetcode import *  # noqa
