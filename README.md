@@ -139,6 +139,7 @@
 - [0371 Sum of Two Integers](codes_/0371_Sum_of_Two_Integers.py) - ([leetcode.com](https://leetcode.com/problems/sum-of-two-integers/))
 - [0374 Guess Number Higher or Lower](codes_/0374_Guess_Number_Higher_or_Lower.py) - ([leetcode.com](https://leetcode.com/problems/guess-number-higher-or-lower/))
 - [0383 Ransom Note](codes_/0383_Ransom_Note.py) - ([leetcode.com](https://leetcode.com/problems/ransom-note/))
+- [0387 First Unique Character in a String](codes_/0387_First_Unique_Character_in_a_String.py) - ([leetcode.com](https://leetcode.com/problems/first-unique-character-in-a-string/))
 - [0392 Is Subsequence](codes_/0392_Is_Subsequence.py) - ([leetcode.com](https://leetcode.com/problems/is-subsequence/))
 - [0394 Decode String](codes_/0394_Decode_String.py) - ([leetcode.com](https://leetcode.com/problems/decode-string/))
 - [0406 Queue Reconstruction by Height](codes_/0406_Queue_Reconstruction_by_Height.py) - ([leetcode.com](https://leetcode.com/problems/queue-reconstruction-by-height/))

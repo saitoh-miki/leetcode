@@ -5,10 +5,3 @@ class Solution:
             if v == 1:
                 return s.index(k)
         return -1
-
-
-# %%
-Solution().firstUniqChar("leetcode")
-
-# %%
-collections.Counter(s)
