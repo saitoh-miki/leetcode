@@ -3,8 +3,7 @@
 
 class Solution:
     def lowestCommonAncestor(
-        self, root: "TreeNode", p: "TreeNode", q: "TreeNode"
-    ) -> "TreeNode":
+        self, root: "TreeNode", p: "TreeNode", q: "TreeNode") -> "TreeNode":
         pv, qv = min(p.val, q.val), max(p.val, q.val)
         while not (pv <= root.val <= qv):
             root = root.left if pv <= root.val else root.right
