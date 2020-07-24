@@ -12,7 +12,3 @@ class Solution:
                 if m < 60:
                     res.append(f"{h}:{m:02}")
         return res
-
-
-# %%
-Solution().readBinaryWatch(1)

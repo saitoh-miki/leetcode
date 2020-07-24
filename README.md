@@ -148,6 +148,7 @@
 - [0389 Find the Difference](codes_/0389_Find_the_Difference.py) - ([leetcode.com](https://leetcode.com/problems/find-the-difference/))
 - [0392 Is Subsequence](codes_/0392_Is_Subsequence.py) - ([leetcode.com](https://leetcode.com/problems/is-subsequence/))
 - [0394 Decode String](codes_/0394_Decode_String.py) - ([leetcode.com](https://leetcode.com/problems/decode-string/))
+- [0401 Binary Watch](codes_/0401_Binary_Watch.py) - ([leetcode.com](https://leetcode.com/problems/binary-watch/))
 - [0406 Queue Reconstruction by Height](codes_/0406_Queue_Reconstruction_by_Height.py) - ([leetcode.com](https://leetcode.com/problems/queue-reconstruction-by-height/))
 - [0437 Path Sum III](codes_/0437_Path_Sum_III.py) - ([leetcode.com](https://leetcode.com/problems/path-sum-iii/))
 - [0438 Find All Anagrams in a String](codes_/0438_Find_All_Anagrams_in_a_String.py) - ([leetcode.com](https://leetcode.com/problems/find-all-anagrams-in-a-string/))
