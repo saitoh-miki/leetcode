@@ -111,6 +111,7 @@
 - [0231 Power of Two](codes_/0231_Power_of_Two.py) - [leetcode.com](https://leetcode.com/problems/power-of-two/)
 - [0232 Implement Queue using Stacks](codes_/0232_Implement_Queue_using_Stacks.py) - [leetcode.com](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [0234 Palindrome Linked List](codes_/0234_Palindrome_Linked_List.py) - [leetcode.com](https://leetcode.com/problems/palindrome-linked-list/)
+- [0235 Lowest Common Ancestor of a Binary Search Tree](codes_/0235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree.py) - [leetcode.com](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 - [0237 Delete Node in a Linked List](codes_/0237_Delete_Node_in_a_Linked_List.py) - [leetcode.com](https://leetcode.com/problems/delete-node-in-a-linked-list/)
 - [0242 Valid Anagram](codes_/0242_Valid_Anagram.py) - [leetcode.com](https://leetcode.com/problems/valid-anagram/)
 - [0257 Binary Tree Paths](codes_/0257_Binary_Tree_Paths.py) - [leetcode.com](https://leetcode.com/problems/binary-tree-paths/)
