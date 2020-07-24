@@ -4,10 +4,3 @@ class Solution:
         while b:
             a, b = (a ^ b) & msk, ((a & b) << 1) & msk
         return a if a <= (msk // 2) else ~(a ^ msk)
-
-
-# %%
-Solution().getSum(-2, 3)
-
-
-# %%
