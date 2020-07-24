@@ -123,6 +123,7 @@
 - [0283 Move Zeroes](codes_/0283_Move_Zeroes.py) - [leetcode.com](https://leetcode.com/problems/move-zeroes/)
 - [0287 Find the Duplicate Number](codes_/0287_Find_the_Duplicate_Number.py) - [leetcode.com](https://leetcode.com/problems/find-the-duplicate-number/)
 - [0290 Word Pattern](codes_/0290_Word_Pattern.py) - [leetcode.com](https://leetcode.com/problems/word-pattern/)
+- [0292 Nim Game](codes_/0292_Nim_Game.py) - [leetcode.com](https://leetcode.com/problems/nim-game/)
 - [0295 Find Median from Data Stream](codes_/0295_Find_Median_from_Data_Stream.py) - [leetcode.com](https://leetcode.com/problems/find-median-from-data-stream/)
 - [0338 Counting Bits](codes_/0338_Counting_Bits.py) - [leetcode.com](https://leetcode.com/problems/counting-bits/)
 - [0344 Reverse String](codes_/0344_Reverse_String.py) - [leetcode.com](https://leetcode.com/problems/reverse-string/)
