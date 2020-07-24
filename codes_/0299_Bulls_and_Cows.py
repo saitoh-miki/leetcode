@@ -1,6 +1,3 @@
-# %%
-from leetcode import *  # noqa
-
 # %% [299. Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)
 
 co = collections.Counter
@@ -10,6 +7,3 @@ class Solution:
         b = sum((co(secret) & co(guess)).values()) - a
         return f"{a}A{b}B"
 
-
-# %%
-Solution().getHint("1123", "0111")
