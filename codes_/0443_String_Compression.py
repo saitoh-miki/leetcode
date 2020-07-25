@@ -10,10 +10,3 @@ class Solution:
                 p, n = c, 1
         chars[:] = a
         return len(a)
-
-
-# %%
-Solution().compress(list("abbccc"))
-
-
-# %%
