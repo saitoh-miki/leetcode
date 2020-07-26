@@ -2,9 +2,3 @@
 class Solution:
     def repeatedSubstringPattern(self, s: str) -> bool:
         return re.match(r"(.+)\1+$", s)
-
-
-# %%
-Solution().repeatedSubstringPattern("aba")
-
-# %%
