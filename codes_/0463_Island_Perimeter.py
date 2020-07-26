@@ -11,9 +11,3 @@ class Solution:
                 if i + 1 < n and grid[i][j] == grid[i + 1][j] == 1:
                     res -= 2
         return res
-
-
-# %%
-Solution().islandPerimeter([[0, 1, 0, 0], [1, 1, 1, 0], [0, 1, 0, 0], [1, 1, 0, 0]])
-
-# %%
