@@ -168,6 +168,7 @@
 - [0459 Repeated Substring Pattern](codes_/0459_Repeated_Substring_Pattern.py) - ([leetcode.com](https://leetcode.com/problems/repeated-substring-pattern/))
 - [0461 Hamming Distance](codes_/0461_Hamming_Distance.py) - ([leetcode.com](https://leetcode.com/problems/hamming-distance/))
 - [0463 Island Perimeter](codes_/0463_Island_Perimeter.py) - ([leetcode.com](https://leetcode.com/problems/island-perimeter/))
+- [0475 Heaters](codes_/0475_Heaters.py) - ([leetcode.com](https://leetcode.com/problems/heaters/))
 - [0494 Target Sum](codes_/0494_Target_Sum.py) - ([leetcode.com](https://leetcode.com/problems/target-sum/))
 - [0543 Diameter of Binary Tree](codes_/0543_Diameter_of_Binary_Tree.py) - ([leetcode.com](https://leetcode.com/problems/diameter-of-binary-tree/))
 - [0560 Subarray Sum Equals K](codes_/0560_Subarray_Sum_Equals_K.py) - ([leetcode.com](https://leetcode.com/problems/subarray-sum-equals-k/))

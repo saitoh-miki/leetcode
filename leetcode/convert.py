@@ -8,7 +8,7 @@ import fire
 
 
 def main():
-    """poetry run leetcode convert code_.py codes_"""
+    """poetry run leetcode convert code__.py codes_"""
     fire.Fire({"convert": convert, "make": make})
 
 
