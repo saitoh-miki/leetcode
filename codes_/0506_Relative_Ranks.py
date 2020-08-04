@@ -6,6 +6,6 @@ import numpy as np
 
 class Solution:
     def findRelativeRanks(self, nums: List[int]) -> List[str]:
-        d = {1: "Gold Medal", 2: "Silver Medal", 3: "Bronze Medal"}
-        e = dict(zip(sorted(nums, reverse=True), range(1, len(nums) + 1)))
-        return [d.get(e[i], str(e[i])) for i in nums]
+        d = {0: "Gold Medal", 1: "Silver Medal", 2: "Bronze Medal"}
+        n = (-np.array(nums)).argsort().argsort()
+        return [d.get(i, str(i + 1)) for i in n]
