@@ -182,6 +182,7 @@
 - [0507 Perfect Number](codes_/0507_Perfect_Number.py) - ([leetcode.com](https://leetcode.com/problems/perfect-number/))
 - [0509 Fibonacci Number](codes_/0509_Fibonacci_Number.py) - ([leetcode.com](https://leetcode.com/problems/fibonacci-number/))
 - [0520 Detect Capital](codes_/0520_Detect_Capital.py) - ([leetcode.com](https://leetcode.com/problems/detect-capital/))
+- [0521 Longest Uncommon Subsequence I](codes_/0521_Longest_Uncommon_Subsequence_I.py) - ([leetcode.com](https://leetcode.com/problems/longest-uncommon-subsequence-i/))
 - [0530 Minimum Absolute Difference in BST](codes_/0530_Minimum_Absolute_Difference_in_BST.py) - ([leetcode.com](https://leetcode.com/problems/minimum-absolute-difference-in-bst/))
 - [0543 Diameter of Binary Tree](codes_/0543_Diameter_of_Binary_Tree.py) - ([leetcode.com](https://leetcode.com/problems/diameter-of-binary-tree/))
 - [0560 Subarray Sum Equals K](codes_/0560_Subarray_Sum_Equals_K.py) - ([leetcode.com](https://leetcode.com/problems/subarray-sum-equals-k/))
