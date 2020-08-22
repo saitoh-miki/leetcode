@@ -50,8 +50,11 @@ def convert(file: str = "code.py", dir_="codes"):
 def add_file(num: int, title: str, lines: List[str], dir_: str):
     title = re.sub(r"[^a-zA-Z0-9 ]", "", title).strip()
     fnam = f"{dir_}/{num:04}_{title.replace(' ', '_')}.py"
+    n = len(lines)
+    while n and not lines[n - 1]:
+        n -= 1
     with open(fnam, "w", encoding="utf-8") as fp:
-        fp.write("\n".join(lines))
+        fp.write("\n".join(lines[: n + 1]))
 
 
 def make(file: str):
