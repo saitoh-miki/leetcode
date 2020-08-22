@@ -1,0 +1,4 @@
+# %% [575. Distribute Candies](https://leetcode.com/problems/distribute-candies/)
+class Solution:
+    def distributeCandies(self, candies: List[int]) -> int:
+        return min(len(candies) // 2, len(set(candies)))

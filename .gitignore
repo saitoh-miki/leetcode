@@ -10,6 +10,7 @@ $RECYCLE.BIN/
 .envrc
 code__.py
 tmp/
+convert
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
