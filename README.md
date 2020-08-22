@@ -201,6 +201,7 @@
 - [0589 N-ary Tree Preorder Traversal](codes_/0589_Nary_Tree_Preorder_Traversal.py) - ([leetcode.com](https://leetcode.com/problems/n-ary-tree-preorder-traversal/))
 - [0590 N-ary Tree Postorder Traversal](codes_/0590_Nary_Tree_Postorder_Traversal.py) - ([leetcode.com](https://leetcode.com/problems/n-ary-tree-postorder-traversal/))
 - [0594 Longest Harmonious Subsequence](codes_/0594_Longest_Harmonious_Subsequence.py) - ([leetcode.com](https://leetcode.com/problems/longest-harmonious-subsequence/))
+- [0598 Range Addition II](codes_/0598_Range_Addition_II.py) - ([leetcode.com](https://leetcode.com/problems/range-addition-ii/))
 - [0617 Merge Two Binary Trees](codes_/0617_Merge_Two_Binary_Trees.py) - ([leetcode.com](https://leetcode.com/problems/merge-two-binary-trees/))
 - [0633 Sum of Square Numbers](codes_/0633_Sum_of_Square_Numbers.py) - ([leetcode.com](https://leetcode.com/problems/sum-of-square-numbers/))
 - [0647 Palindromic Substrings](codes_/0647_Palindromic_Substrings.py) - ([leetcode.com](https://leetcode.com/problems/palindromic-substrings/))
