@@ -71,8 +71,8 @@ def show_treenode(tn):
                     ed, vd = "/", tn.right.right.left.val
                 if tn.right.right.right:
                     ee, ve = "\\", tn.right.right.right.val
-    ss = f"""\
-              {v0:2}
+    ss = f"""_\
+             {v0:2}
             {e1}    {e2}
           {e1}        {e2}
         {e1}            {e2}
@@ -82,7 +82,7 @@ def show_treenode(tn):
   {e7}{e8}      {e9}{ea}      {eb}{ec}      {ed}{ee}
 {v7:2}  {v8:2}  {v9:2}  {va:2}  {vb:2}  {vc:2}  {vd:2}  {ve:2}""".splitlines()
     ss = [s for s in ss if s.strip()]
-    return "\n".join(ss)
+    print("\n".join(ss))
 
 
 def show_treenode2(tn, pre=""):
