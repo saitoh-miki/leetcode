@@ -1,4 +1,4 @@
-# %% [22. Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
+# %% [22. **Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         return list(search("(" * n, "", ""))

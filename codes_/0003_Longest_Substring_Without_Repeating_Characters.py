@@ -1,15 +1,9 @@
-# %% [3. Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+# %% [3. *Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        return max([unique_len(s[i:]) for i in range(len(s))], default=0)
-
-
-def unique_len(s):
-    n = 0
-    st = set()
-    for c in s:
-        if c in st:
-            break
-        n += 1
-        st.add(c)
-    return n
+        res, i, n, idx = 0, 0, len(s), {}
+        for j, c in enumerate(s):
+            i = max(i, idx.get(c, 0))
+            res = max(res, j - i + 1)
+            idx[c] = j + 1
+        return res

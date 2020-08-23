@@ -1,4 +1,4 @@
-# %% [112. Path Sum](https://leetcode.com/problems/path-sum/)
+# %% [112. *Path Sum](https://leetcode.com/problems/path-sum/)
 class Solution:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if not root:

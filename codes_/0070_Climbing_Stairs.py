@@ -1,4 +1,4 @@
-# %% [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+# %% [70. *Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
 class Solution:
     def climbStairs(self, n: int) -> int:
         i = j = 1

@@ -1,4 +1,4 @@
-# %% [49. Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+# %% [49. *Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         ans = collections.defaultdict(list)

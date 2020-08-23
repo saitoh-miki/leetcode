@@ -1,4 +1,4 @@
-# %% [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+# %% [16. **3Sum Closest](https://leetcode.com/problems/3sum-closest/)
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         n, diff = len(nums), math.inf

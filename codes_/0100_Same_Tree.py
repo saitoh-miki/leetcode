@@ -1,4 +1,4 @@
-# %% [100. Same Tree](https://leetcode.com/problems/same-tree/)
+# %% [100. *Same Tree](https://leetcode.com/problems/same-tree/)
 class Solution:
     def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if not p or not q:
