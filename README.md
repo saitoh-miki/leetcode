@@ -222,6 +222,7 @@
 - [0680 Valid Palindrome II](codes_/0680_Valid_Palindrome_II.py) - ([leetcode.com](https://leetcode.com/problems/valid-palindrome-ii/))
 - [0682 Baseball Game](codes_/0682_Baseball_Game.py) - ([leetcode.com](https://leetcode.com/problems/baseball-game/))
 - [0686 Repeated String Match](codes_/0686_Repeated_String_Match.py) - ([leetcode.com](https://leetcode.com/problems/repeated-string-match/))
+- [0687 *Longest Univalue Path](codes_/0687_Longest_Univalue_Path.py) - ([leetcode.com](https://leetcode.com/problems/longest-univalue-path/))
 - [0695 Max Area of Island](codes_/0695_Max_Area_of_Island.py) - ([leetcode.com](https://leetcode.com/problems/max-area-of-island/))
 - [0701 Insert into a Binary Search Tree](codes_/0701_Insert_into_a_Binary_Search_Tree.py) - ([leetcode.com](https://leetcode.com/problems/insert-into-a-binary-search-tree/))
 - [0703 Kth Largest Element in a Stream](codes_/0703_Kth_Largest_Element_in_a_Stream.py) - ([leetcode.com](https://leetcode.com/problems/kth-largest-element-in-a-stream/))
