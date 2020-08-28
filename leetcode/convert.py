@@ -65,7 +65,7 @@ def make_readme(from_dir):
                 fp.write(f"- [{s}]({u}) - ([leetcode.com]({m.group(3)}))\n")
 
 
-def make_code(from_file: str, to_file: str = "code.py"):
+def make_code(from_file: str, to_file: str = "code.py", drop_4spaces=False):
     """from_file→to_file"""
     if not (pth := Path(from_file)).exists():
         print(f"Not found {from_file}")
@@ -74,7 +74,7 @@ def make_code(from_file: str, to_file: str = "code.py"):
         for line in pth.read_text().splitlines():
             if m := re.match(r"\[\**(\d+)\.\s*([^]\*]+)\**\]\(([^)]+)\)\s*", line):
                 fp.write(f"# %% [{m.group(1)}. {m.group(2)}]({m.group(3)})\n")
-            elif line.startswith("    "):
+            elif drop_4spaces and line.startswith("    "):
                 fp.write(line[4:] + "\n")
             else:
                 fp.write(line + "\n")

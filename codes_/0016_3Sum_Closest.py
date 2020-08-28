@@ -1,4 +1,6 @@
 # %% [16. **3Sum Closest](https://leetcode.com/problems/3sum-closest/)
+# 問題：和がtargetに最も近い3つの数字を求める
+# 解法：数字を1つ選ぶ。その数字より後の数字で2分探索する
 class Solution:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         n, diff = len(nums), math.inf

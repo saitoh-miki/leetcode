@@ -1,4 +1,6 @@
 # %% [5. **Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+# 問題：回文となる最長の部分文字列を返す
+# 解法：回文かどうかは中央から調べる
 class Solution:
     def longestPalindrome(self, s: str) -> str:
         n = len(s)
