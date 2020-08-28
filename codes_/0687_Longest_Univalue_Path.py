@@ -1,7 +1,8 @@
 # %% [687. *Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)
 # 問題：値が同一のパスのホップ数を求めよ
-# 解法：関数を作成する。左右を再帰的に実行し最大を更新する。
-#       子供が同じ値なら子供の関数値+1。最大は左右の子供の値の和。
+# 解法：パスのホップ数の関数を作成する。左右を再帰的に実行し最大を更新する。
+#       子供の値＝「子供が親と同じ値なら、子供の関数値+1。そうでないなら０」
+#       最大は、左右の子供の値の和で更新。
 class Solution:
     def longestUnivaluePath(self, root: TreeNode) -> int:
         fn(root, rs := [0])
