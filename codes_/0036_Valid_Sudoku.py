@@ -1,4 +1,6 @@
 # %% [36. **Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
+# 問題：数独として有効かどうかを返せ
+# 解法：各範囲で1~9が揃っているか調べる
 import numpy as np
 
 

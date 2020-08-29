@@ -1,4 +1,6 @@
 # %% [98. *Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
+# 問題：TreeNodeがinorderで小さい順かどうかを返せ
+# 解法：TreeNodeが範囲に入っているかどうか再帰的に調べる
 class Solution:
     def isValidBST(self, root: TreeNode, lo=-math.inf, up=math.inf) -> bool:
         if root:

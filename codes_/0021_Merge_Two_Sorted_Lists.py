@@ -1,4 +1,6 @@
 # %% [21. *Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+# 問題：2つのソート済みListNodeをマージソートせよ
+# 解法：小さい方をつなげていく
 class Solution:
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         res = tn = ListNode()
