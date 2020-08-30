@@ -1,4 +1,6 @@
-# %% [661. Image Smoother](https://leetcode.com/problems/image-smoother/)
+# %% [661. *Image Smoother](https://leetcode.com/problems/image-smoother/)
+# 問題：画像のピクセルを広げた3x3の範囲の平均（切り下げ）求めよ
+# 解法：外側にNaNで広げnumpy.nanmeanを用いる
 import numpy as np
 
 

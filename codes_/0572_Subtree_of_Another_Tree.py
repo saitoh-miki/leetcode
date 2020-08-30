@@ -1,4 +1,6 @@
 # %% [572. *Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+# 問題：tがsの部分木かどうかを返す
+# 解法：再帰を用いる
 class Solution:
     def isSubtree(self, s: TreeNode, t: TreeNode, just=False) -> bool:
         if not s or not t:

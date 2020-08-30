@@ -1,4 +1,6 @@
-# %% [669. Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)
+# %% [669. *Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)
+# 問題：値がLとRの範囲から外れるものを除け
+# 解法：再帰を用いる
 class Solution:
     def trimBST(self, root: TreeNode, L: int, R: int) -> TreeNode:
         if not root:
