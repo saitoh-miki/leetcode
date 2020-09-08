@@ -245,6 +245,7 @@
 - [0746 Min Cost Climbing Stairs](codes_/0746_Min_Cost_Climbing_Stairs.py) - ([leetcode.com](https://leetcode.com/problems/min-cost-climbing-stairs/))
 - [0747 Largest Number At Least Twice of Others](codes_/0747_Largest_Number_At_Least_Twice_of_Others.py) - ([leetcode.com](https://leetcode.com/problems/largest-number-at-least-twice-of-others/))
 - [0748 Shortest Completing Word](codes_/0748_Shortest_Completing_Word.py) - ([leetcode.com](https://leetcode.com/problems/shortest-completing-word/))
+- [0762 Prime Number of Set Bits in Binary Representation](codes_/0762_Prime_Number_of_Set_Bits_in_Binary_Representation.py) - ([leetcode.com](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/))
 - [0779 K-th Symbol in Grammar](codes_/0779_Kth_Symbol_in_Grammar.py) - ([leetcode.com](https://leetcode.com/problems/k-th-symbol-in-grammar/))
 - [0783 Minimum Distance Between BST Nodes](codes_/0783_Minimum_Distance_Between_BST_Nodes.py) - ([leetcode.com](https://leetcode.com/problems/minimum-distance-between-bst-nodes/))
 - [0929 Unique Email Addresses](codes_/0929_Unique_Email_Addresses.py) - ([leetcode.com](https://leetcode.com/problems/unique-email-addresses/))
