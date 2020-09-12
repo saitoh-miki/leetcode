@@ -1,4 +1,4 @@
-# %% [796. Rotate String](https://leetcode.com/problems/rotate-string/)
+# %% [796. *Rotate String](https://leetcode.com/problems/rotate-string/)
 # 問題：Aを回転（先頭N文字を後ろに移動）してBになるかどうかを返せ
 # 解法：同じ長さで、2回繰り返したときに存在するか調べる
 class Solution:

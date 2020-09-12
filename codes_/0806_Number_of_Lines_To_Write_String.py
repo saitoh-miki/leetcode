@@ -1,10 +1,4 @@
-# %%
-from leetcode import *  # noqa
-
-
 # %% [806. Number of Lines To Write String](https://leetcode.com/problems/number-of-lines-to-write-string/)
-# 問題：
-# 解法：ordを用いる
 class Solution:
     def numberOfLines(self, widths: List[int], S: str) -> List[int]:
         lines, cur = 1, 0
@@ -15,9 +9,3 @@ class Solution:
                 lines += 1
                 cur = n
         return [lines, cur]
-
-
-# %%
-Solution().numberOfLines()
-
-# %%
