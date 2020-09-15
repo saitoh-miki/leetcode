@@ -1,7 +1,3 @@
-# %%
-from leetcode import *  # noqa
-
-
 # %% [830. Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/)
 # 問題：サイズが3以上の（同じ文字が連続する）グループの「開始位置と終了位置」をリストで返せ
 # 解法：文字の変わる位置を保持する
@@ -14,11 +10,3 @@ class Solution:
                     res.append([st, i - 1])
                 st, pr = i, c
         return res
-
-
-# %%
-Solution().mostCommonWord(
-    paragraph="Bob hit a ball, the hit BALL flew far after it was hit.", banned=["hit"]
-)
-
-# %%
