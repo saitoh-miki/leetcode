@@ -1,7 +1,3 @@
-# %% https://leetcode.com/problemset/algorithms/?difficulty=Easy&status=Todo
-from leetcode import *  # noqa
-
-
 # %% [844. Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)
 # 問題：「#」をバックスペース（1文字削除）とみなした時、SとTが等しいかを返せ
 # 解法：リストをスタックとして用いる
@@ -19,10 +15,3 @@ def calc(s):
         else:
             res.append(c)
     return "".join(res)
-
-
-# %%
-Solution().flipAndInvertImage([[1, 1, 0], [1, 0, 1], [0, 0, 0]])
-
-
-# %%
