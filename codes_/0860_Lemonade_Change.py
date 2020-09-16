@@ -1,7 +1,3 @@
-# %% https://leetcode.com/problemset/algorithms/?difficulty=Easy&status=Todo
-from leetcode import *  # noqa
-
-
 # %% [860. *Lemonade Change](https://leetcode.com/problems/lemonade-change/)
 # 問題：すべての支払いでおつりを返せるかどうかを返せ
 # 解法：5$と10$の数をカウントする
@@ -23,10 +19,3 @@ class Solution:
             if a5 < 0:
                 return False
         return True
-
-
-# %%
-Solution().lemonadeChange([5, 5, 5, 10, 10, 10])
-
-
-# %%
