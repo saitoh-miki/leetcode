@@ -1,7 +1,3 @@
-# %% https://leetcode.com/problemset/algorithms/?difficulty=Easy&status=Todo
-from leetcode import *  # noqa
-
-
 # %% [874. Walking Robot Simulation](https://leetcode.com/problems/walking-robot-simulation/)
 # 問題：移動経路中の原点からの最大距離の2乗を返せ
 # 解法：obstaclesをsetに変換する
@@ -19,10 +15,3 @@ class Solution:
                         x, y = nx, ny
                 mx = max(mx, x * x + y * y)
         return mx
-
-
-# %%
-Solution().lemonadeChange([5, 5, 5, 10, 10, 10])
-
-
-# %%
