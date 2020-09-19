@@ -1,10 +1,10 @@
 # %%
 from leetcode import *  # noqa
 
-# %% [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+# %% [231. Power of Two](https://leetcode.com/problems/power-of-two/)
 class Solution:
-    def lengthOfLastWord(self, s: str) -> int:
-        return len(s.strip().split(" ")[-1])
+    def isPowerOfTwo(self, n: int) -> bool:
+        return n > 0 and bin(n).count("1") == 1
 
 
 # %%
