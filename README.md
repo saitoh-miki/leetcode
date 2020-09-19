@@ -279,6 +279,7 @@
 - [0896 Monotonic Array](codes_/0896_Monotonic_Array.py) - ([leetcode.com](https://leetcode.com/problems/monotonic-array/))
 - [0897 Increasing Order Search Tree](codes_/0897_Increasing_Order_Search_Tree.py) - ([leetcode.com](https://leetcode.com/problems/increasing-order-search-tree/))
 - [0905 Sort Array By Parity](codes_/0905_Sort_Array_By_Parity.py) - ([leetcode.com](https://leetcode.com/problems/sort-array-by-parity/))
+- [0908 *Smallest Range I](codes_/0908_Smallest_Range_I.py) - ([leetcode.com](https://leetcode.com/problems/smallest-range-i/))
 - [0929 Unique Email Addresses](codes_/0929_Unique_Email_Addresses.py) - ([leetcode.com](https://leetcode.com/problems/unique-email-addresses/))
 - [0938 Range Sum of BST](codes_/0938_Range_Sum_of_BST.py) - ([leetcode.com](https://leetcode.com/problems/range-sum-of-bst/))
 - [1011 Capacity To Ship Packages Within D Days](codes_/1011_Capacity_To_Ship_Packages_Within_D_Days.py) - ([leetcode.com](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/))
