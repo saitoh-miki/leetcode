@@ -1,11 +1,10 @@
 # %%
 from leetcode import *  # noqa
-from leetcode import List
 
-# %% [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)
+# %% [46. Permutations](https://leetcode.com/problems/permutations/)
 class Solution:
-    def strStr(self, haystack: str, needle: str) -> int:
-        return haystack.find(needle)
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        return list(itertools.permutations(nums))
 
 
 # %%
