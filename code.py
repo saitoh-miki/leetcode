@@ -1,10 +1,10 @@
 # %%
 from leetcode import *  # noqa
 
-# %% [46. Permutations](https://leetcode.com/problems/permutations/)
+# %% [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
 class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
-        return list(itertools.permutations(nums))
+    def lengthOfLastWord(self, s: str) -> int:
+        return len(s.strip().split(" ")[-1])
 
 
 # %%
